@@ -32,7 +32,7 @@ if(isset($_REQUEST["btn_Upload"]))
     <b><h1>Car's Verification</h1></b>
 
     <h4><label for="file">Select Image: </label>
-    <input type="file" id="file" name="FU_Photo"  style="font-size: 15px;"/><br><br><br><br><br>
+    <input type="file" id="file" name="FU_Photo"  style="font-size: 15px;"/><br>
     </h4>
     <input type="submit" value="Upload" name="btn_Upload">
     <center>

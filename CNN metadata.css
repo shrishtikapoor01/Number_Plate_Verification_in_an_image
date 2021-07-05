@@ -1,0 +1,61 @@
+body{
+
+    height: 100%;
+  
+    background-image:url('fullcar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+  }
+
+  .bgimg-1 {
+    background-image: url('fullcar.jpg');
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: contain;
+    background-repeat: no-repeat;
+   
+  }
+
+  
+  input[type=file], select {
+                      width: 50%;
+                      height: 20%;
+                      padding: 30px ;
+                      margin: 0px 0;
+                      box-sizing: border-box;
+                      border: 2px solid #dcdcdc;
+                      border-radius: 8px;
+                      outline: none;
+                   }
+                  input[type=text]:focus {
+                      border: 2px solid var(--right-color);
+                  }
+  
+   input[type=submit] {
+                      width: 15%;
+                      height: 38%;
+                      background-color: rgb(6, 20, 6);
+                      color: rgb(251, 255, 252);
+                      font-size: 14px;
+                      padding: 15px 10px;
+                      margin: 200px 0;
+                      border: none;
+                      border-radius: 15px;
+                      cursor: pointer;
+                      letter-spacing: 1px;
+                  }
+                  input[type=submit]:hover {
+                      background-color: #661a1a;
+                  }
+  
+  .d1{
+      padding-left: 80px;
+  }
+  
+  h1{
+                      font-size: 42px;
+                      text-shadow: 2px 2px 2px rgba(22,20,19,0.4);
+                      color: var(--left-color);
+    }

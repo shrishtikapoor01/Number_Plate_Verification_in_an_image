@@ -6,7 +6,7 @@
     <title>Vehicle Information</title>
     <script type="text/javascript">
     	    function myfun() {
-    	        var x = `"<?php
+    	        var x = `<?php
                 if(isset($_REQUEST["btn_Upload"]))
 				{	
 					$fn=$_FILES["FU_Photo"]["name"];
@@ -14,8 +14,11 @@
 					$dpath="Cars/".$fn;
 					move_uploaded_file($spath, $dpath);
 					$last_line = system('python main.py', $retval);
-				}?>"` 	
-				document.getElementById("out").innerHTML = x;
+				}?>` 
+                myfun1(x); 
+             }
+             function myfun1(x){
+                alert("Car number is : " + x);
 			
              }
     </script>
